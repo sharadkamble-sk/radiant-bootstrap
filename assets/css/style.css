@@ -157,17 +157,21 @@ a {
   }
 }
 
-.nav-link{
+.nav-link {
   color: #000000;
 }
 
 .nav-link:hover {
   color: #4adbe8;
 }
+.email-text:hover {
+  color: #4adbe8;
+}
 
 .navbar-nav .nav-item:hover .nav-link {
   color: #4adbe8;
 }
+
 /* .navbar-nav .nav-link {
     text-transform: uppercase;
 } */
@@ -1000,7 +1004,7 @@ About page css */
 }
 
 
-.inquiryCard{
+.inquiryCard {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
@@ -1624,5 +1628,418 @@ About page css */
   .testmonext {
     left: 255px;
     /* Adjust the left positioning for mobile */
+  }
+}
+
+
+/* Services */
+.DigitalMrktSer {
+  background-color: #35C1D5;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+
+
+}
+
+.webDevelopmentSer {
+  background-color: #ECFDFF;
+}
+
+.webDevSer {
+  background-color: #35C1D5;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px
+}
+
+.servicsText {
+  color: #1F6D89;
+}
+
+.GraphicDesignSer {
+  background-color: #1F6D89;
+}
+
+/* Contacts */
+
+.custom-input {
+  border-color: #0097A4;
+}
+
+.sendMsgBtn {
+  width: 200px;
+  height: 50px;
+  border-radius: 90px;
+  border: 1px solid #025978;
+  background-color: #025978;
+  color: #fff;
+  padding: 5px;
+}
+
+.sendMsgBtn:hover {
+  background-color: #fff;
+  border: 1px solid #025978;
+  color: #025978;
+}
+
+.getInTouch {
+  color: #025978;
+}
+
+@media (max-width: 767px) {
+  .getInTouch {
+    text-align: center;
+  }
+}
+
+/* Placements */
+/* .placement {
+    background-color: #D0F1F4;
+} */
+
+.placementcrd {
+  background-color: #ECFDFF;
+  border-radius: 20PX;
+}
+
+.placementText {
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0000006B;
+}
+
+.placementh3 {
+  color: #025978;
+}
+
+.placementhimgs img {
+  object-fit: cover;
+  width: '100%';
+  height: '100%';
+
+}
+
+
+/* //placement */
+.placementdrive {
+  background-color: #1F6D89;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-border {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #5BD066;
+  /* Common border color */
+  padding: 10px;
+  height: 200px;
+  width: 900px;
+  border-radius: 20px;
+  /* Adjust padding as needed */
+}
+
+
+.inline-heading {
+  margin-right: 10px;
+  /* Adjust margin between heading and button */
+  text-align: center;
+}
+
+/* .regnowbtn {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #5BD066;
+  background-color: #1F6D89;
+  color: #5BD066;
+  padding: 5px;
+  margin-left: 25px;
+  
+
+} */
+
+.register-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #5BD066;
+  background-color: #1F6D89;
+  color: #5BD066;
+  padding: 5px;
+  margin-left: 25px;
+
+}
+
+.register-btn:hover {
+  background-color: #fff;
+  color: #5BD066;
+}
+
+/* .regnowbtn:hover {
+  background-color: #fff;
+  color: #5BD066;
+} */
+
+.inline-heading {
+  margin-left: 170px;
+
+}
+
+/* .placedcrds {
+  margin-top: 50px;
+  background-image: url('../../assets/images/circle1.png');
+  background-size: cover;
+  background-position: center;
+
+} */
+
+.btnsucachivers {
+  background-color: #35C1D5;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .register-btn {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+
+  }
+
+  .inline-heading {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: medium;
+
+
+
+  }
+
+  /* .regnowbtn {
+    width: auto;
+    margin: 15px 0;
+    
+  } */
+}
+
+
+@media (max-width: 767px) {
+  .placementcrd {
+    /* Add space between cards on mobile */
+    width: 80%;
+    height: auto;
+    margin: auto;
+
+    background-color: #ECFDFF;
+    margin-bottom: 20px;
+    border-radius: 0;
+    text-align: center;
+
+  }
+
+  .placementimgs {
+    text-align: center;
+    /* Center the image on mobile */
+    margin-bottom: 15px;
+    /* Add space below the image on mobile */
+    height: auto;
+    margin-top: 20px;
+  }
+
+
+
+}
+
+@media (max-width: 575.98px) {
+
+  /* Adjust the layout for mobile screens */
+  .carousel-inner .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .carousel-item .row .col-md-2 {
+    flex: 0 0 calc(50% - 10px);
+    /* Two images with a small gap between them */
+    margin: 5px;
+  }
+}
+
+
+/* Projects */
+.ProjectSec2 {
+  color: #025978;
+}
+
+.ourCanProject {
+  background-color: #35C1D5;
+}
+
+/* .placementdrive {
+  background-color: #1F6D89;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #5BD066;
+
+  padding: 10px;
+  height: 200px;
+  width: 900px;
+  border-radius: 20px;
+
+} */
+
+
+/* 
+.inline-heading {
+  margin-right: 10px;
+
+  text-align: center;
+} */
+
+
+
+.regnowbtn {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #5BD066;
+  background-color: #1F6D89;
+  color: #5BD066;
+  padding: 5px;
+  margin-left: 25px;
+
+}
+
+.regnowbtn:hover {
+  background-color: #fff;
+  color: #5BD066;
+}
+
+.inline-heading {
+  margin-left: 170px;
+
+}
+
+.job-card {
+  text-align: end;
+}
+
+.school-txt {
+  margin-right: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .school-img {
+    margin: 0 auto;
+    display: block;
+    height: auto;
+  }
+
+  .school-txt {
+    text-align: center !important;
+    margin-right: 22px;
+    margin-left: 22px;
+
+  }
+
+  .priyanka {
+    margin-left: 60px;
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  /* .content-wrapper {
+      width: 90%;
+      margin: 0 auto;
+  } */
+
+  .inline-heading {
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+
+  .regnowbtn {
+    width: 100%;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .CardImgTop {
+    margin: 0 auto;
+    display: block;
+    height: auto;
+  }
+
+  .TextEnd,
+  .TextStart {
+    text-align: center !important;
+  }
+}
+
+/* Contacts */
+
+.custom-input {
+  border-color: #0097A4;
+}
+
+.sendMsgBtn {
+  width: 200px;
+  height: 50px;
+  border-radius: 90px;
+  border: 1px solid #025978;
+  background-color: #025978;
+  color: #fff;
+  padding: 5px;
+}
+
+.sendMsgBtn:hover {
+  background-color: #fff;
+  border: 1px solid #025978;
+  color: #025978;
+}
+
+.getInTouch {
+  color: #025978;
+}
+
+@media (max-width: 767px) {
+  .getInTouch {
+    text-align: center;
   }
 }

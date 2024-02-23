@@ -21,6 +21,8 @@
 
     <!-- Your custom styles (home.css) -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/index.js"></script>
+
 </head>
 
 <body>
@@ -96,73 +98,66 @@
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle " href="/courses" role="button"
+                            <a class="nav-link active dropdown-toggle" href="/courses" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Courses
                             </a>
                             <ul class="course-dropdown dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" onclick="handleCombinedClick()"
-                                        href="./courses/full-stack-development-course.html">
+                                        href="/courses/full-stack-development-course.html">
                                         Full Stack Java Development
                                     </a>
                                     <a class="dropdown-item" onclick="handleCombinedClick()"
-                                        href="./courses/data-science-course.html">
+                                        href="/courses/data-science-course.html">
                                         Data Science
                                     </a>
                                     <a class="dropdown-item" onclick="handleCombinedClick()"
-                                        href="./courses/web-development-course.html">
+                                        href="/courses/web-development-course.html">
                                         Web Development
                                     </a>
                                     <a class="dropdown-item" onclick="handleCombinedClick()"
-                                        href="./courses/digital-marketing-course.html">
+                                        href="/courses/digital-marketing-course.html">
                                         Digital Marketing
                                     </a>
                                     <a class="dropdown-item" onclick="handleCombinedClick()"
-                                        href="./courses/ui-ux-design-course.html">
+                                        href="/courses/ui-ux-design-course.html">
                                         UI/UX Design
                                     </a>
                                     <a class="dropdown-item" onclick="handleCombinedClick()"
-                                        href="./courses/salesforce-course.html">
+                                        href="/courses/salesforce-course.html">
                                         Salesforce
                                     </a>
                                     <a class="dropdown-item" onclick="handleCombinedClick()"
-                                        href="./courses/powerbi-course.html">
+                                        href="/courses/powerbi-course.html">
                                         Power BI
                                     </a>
                                 </li>
-
+                                <!-- ... (repeat for other courses) -->
                             </ul>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link active" onclick="handleCombinedClick()" href="/services">
+                            <a class="nav-link active" onclick="handleCombinedClick()" href="./services.html">
                                 Services
                             </a>
                         </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link active" onclick="handleCombinedClick()" href="/enroll-now">
+                        <!-- <li class="nav-item px-2">
+                            <a class="nav-link active" onclick="handleCombinedClick()" href="./enroll-now.html">
                                 Enroll Now
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item px-2">
-                            <a class="nav-link active" onclick="handleCombinedClick()" href="/placement">
+                            <a class="nav-link active" onclick="handleCombinedClick()" href="./placement.html">
                                 Placement
                             </a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link active" onclick="handleCombinedClick()" href="/projects">
+                            <a class="nav-link active" onclick="handleCombinedClick()" href="./projects.html">
                                 Projects
                             </a>
                         </li>
-                        <!--
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="/blogs">
-                                Blogs
-                            </a>
-                        </li>
-                        -->
-                        <li class="nav-item px-2">
-                            <a class="nav-link active" onclick="handleCombinedClick()" href="/contact">
+                            <a class="nav-link active " onclick="handleCombinedClick()" href="./contact.html">
                                 Contact
                             </a>
                         </li>
@@ -184,7 +179,7 @@
                             Your Future</h1>
                         <p>Let’s make your learning experience extraordinary</p>
                         <div class="button-container">
-                            <a href="/contact" rel='noopener noreferrer'>
+                            <a href="./contact.html" rel='noopener noreferrer'>
                                 <button type="submit" class="explorecrs">
                                     <strong>CONTACT US</strong>
                                 </button>
@@ -203,7 +198,7 @@
                             talent to build outstanding branding solutions <br />
                             and digital products</p>
                         <div class="button-container">
-                            <a href="/contact" rel='noopener noreferrer'>
+                            <a href="./contact.html" rel='noopener noreferrer'>
                                 <button type="submit" class="explorecrs">
                                     <strong>CONTACT US</strong>
                                 </button>
@@ -221,7 +216,7 @@
                             encompassing digital marketing, web<br />
                             development, and efficient billing services</p>
                         <div class="button-container">
-                            <a href="/contact" rel='noopener noreferrer'>
+                            <a href="./contact.html" rel='noopener noreferrer'>
                                 <button type="submit" class="explorecrs">
                                     <strong>CONTACT US</strong>
                                 </button>
@@ -447,7 +442,7 @@
                             Discover the power of data with our Data Science course. Gain hands-on experience in
                             analytics, machine learning, and data visualization, and more.
                         </p>
-                        <a href="/courses/data-science-course" class="btn btn-primary btn-block"
+                        <a href="./courses/data-science-course.html" class="btn btn-primary btn-block"
                             onclick="handleCombinedClick()" style="border-radius: 15px; background-color: #025978;">
                             <strong>VIEW DETAILS</strong>
                         </a>
@@ -469,7 +464,7 @@
                             them proficient full-stack Java
                             developers.
                         </p>
-                        <a href="/courses/full-stack-development-course" class="btn btn-primary btn-block"
+                        <a href="./courses/full-stack-development-course.html" class="btn btn-primary btn-block"
                             onclick="handleCombinedClick()" style="border-radius: 15px; background-color: #025978;">
                             <strong>VIEW DETAILS</strong>
                         </a>
@@ -488,7 +483,7 @@
                             Learn basic to advanced programming languages, such as HTML, CSS, Java, Angular, Node.Js,
                             React, SQL, and more. And apply your learnings on a live project.
                         </p>
-                        <a href="/courses/web-development-course" class="btn btn-primary btn-block "
+                        <a href="./courses/web-development-course.html" class="btn btn-primary btn-block "
                             onclick="{handleCombinedClick}" style="border-radius: 15px; background-color: #025978;">
                             <strong>VIEW DETAILS</strong>
                         </a>
@@ -507,7 +502,7 @@
                             One will learn and implement data visualization, dashboard creation, data modelling, and
                             analysis techniques using Microsoft's powerful business intelligence tool.
                         </p>
-                        <a href="/courses/powerbi-course" class="btn btn-primary btn-block "
+                        <a href="./courses/powerbi-course.html" class="btn btn-primary btn-block "
                             onclick="{handleCombinedClick}" style="border-radius: 15px; background-color: #025978;">
                             <strong>VIEW DETAILS</strong>
                         </a>
@@ -526,7 +521,7 @@
                             Learn the principles behind user interface design and user experience design, covering
                             topics such as Wireframe, Prototype, usability testing & design thinking methodologies.
                         </p>
-                        <a href="/courses/ui-ux-design-course" class="btn btn-primary btn-block "
+                        <a href="./courses/ui-ux-design-course.html" class="btn btn-primary btn-block "
                             onclick="{handleCombinedClick}" style="border-radius: 15px; background-color: #025978;">
                             <strong>VIEW DETAILS</strong>
                         </a>
@@ -545,7 +540,7 @@
                             Learn and implement architect, design, SOQL & SOSL, automation and scalable business
                             solutions using Salesforce's platform in our Salesforce Design course.
                         </p>
-                        <a href="/courses/salesforce-course" class="btn btn-primary btn-block "
+                        <a href="./courses/salesforce-course.html" class="btn btn-primary btn-block "
                             onclick="{handleCombinedClick}" style="border-radius: 15px; background-color: #025978;">
                             <strong>VIEW DETAILS</strong>
                         </a>
@@ -564,7 +559,7 @@
                             Students will learn SEO, Social Media Marketing, SME, Canva, various DM tools and create
                             digital marketing projects.
                         </p>
-                        <a href="/courses/digital-marketing-course" class="btn btn-primary btn-block "
+                        <a href="./courses/digital-marketing-course.html" class="btn btn-primary btn-block "
                             onclick="{handleCombinedClick}" style="border-radius: 15px; background-color: #025978;">
                             <strong>VIEW DETAILS</strong>
                         </a>
@@ -798,37 +793,37 @@
             <div class="col-md-3 mt-3 moreFooter text-start">
                 <h3>Courses</h3>
                 <div class="footerCourses textCourse text-start">
-                    <p><a href="/courses/full-stack-development-course">CSS</a></p>
-                    <p><a href="/courses/web-development-course">Web Development</a></p>
-                    <p><a href="/courses/salesforce-course">Salesforce</a></p>
-                    <p><a href="/courses/digital-marketing-course">Digital Marketing</a></p>
-                    <p><a href="/courses/powerbi-course">Power BI</a></p>
-                    <p><a href="/courses/ui-ux-design-course">UI/ UX Design</a></p>
-                    <p><a href="/courses/data-science-course">Data Science</a></p>
+                    <p><a href="/courses/full-stack-development-course.html">Full Stack Java Development</a></p>
+                    <p><a href="/courses/web-development-course.html">Web Development</a></p>
+                    <p><a href="/courses/salesforce-course.html">Salesforce</a></p>
+                    <p><a href="/courses/digital-marketing-course.html">Digital Marketing</a></p>
+                    <p><a href="/courses/powerbi-course.html">Power BI</a></p>
+                    <p><a href="/courses/ui-ux-design-course.html">UI/ UX Design</a></p>
+                    <p><a href="/courses/data-science-course.html">Data Science</a></p>
                 </div>
             </div>
             <div class="col-md-2 mt-3 moreFooter text-start">
                 <h3>Services</h3>
                 <div class="footerCourses text-start">
-                    <p><a href="/services">Digital Marketing</a></p>
-                    <p><a href="/services">Lead Generation</a></p>
-                    <p><a href="/services">Google Ads</a></p>
-                    <p><a href="/services">Wev Development</a></p>
-                    <p><a href="/services">Web Application</a></p>
-                    <p><a href="/services">Billing Software</a></p>
-                    <p><a href="/services">Graphic Design</a></p>
+                    <p><a href="/courses/digital-marketing-course.html">Digital Marketing</a></p>
+                    <p><a href="./services.html">Lead Generation</a></p>
+                    <p><a href="./services.html">Google Ads</a></p>
+                    <p><a href="./courses/web-development-course.html">Wev Development</a></p>
+                    <p><a href="./services.html">Web Application</a></p>
+                    <p><a href="./services.html">Billing Software</a></p>
+                    <p><a href="./services.html">Graphic Design</a></p>
                 </div>
             </div>
             <div class="col-md-2 mt-3 moreFooter text-start">
                 <h3>Quick Links</h3>
                 <div class="footerCourses text-start">
-                    <p><a href="/">Home</a></p>
-                    <p><a href="/about">About Us</a></p>
-                    <p><a href="/services">Our Services</a></p>
-                    <p><a href="/courses/full-stack-development-course">Courses</a></p>
-                    <p><a href="/enroll-now">Enroll Now</a></p>
-                    <p><a href="/placement">Placements</a></p>
-                    <p><a href="/projects">Candidates Projects</a></p>
+                    <p><a href="./index.html">Home</a></p>
+                    <p><a href="./about.html">About Us</a></p>
+                    <p><a href="./services.html">Our Services</a></p>
+                    <p><a href="./courses/full-stack-development-course.html">Courses</a></p>
+                    <p><a href="./enroll-now.html">Enroll Now</a></p>
+                    <p><a href="./placement.html">Placements</a></p>
+                    <p><a href="./projects.html">Candidates Projects</a></p>
                 </div>
             </div>
         </div>
@@ -846,6 +841,18 @@
 
 
 
+    <script>
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            var navbar = document.querySelector(".navbar");
+            if (window.scrollY > 50) {
+                navbar.classList.add("fixed-top");
+            } else {
+                navbar.classList.remove("fixed-top");
+            }
+        }
+    </script>
 
 
 
